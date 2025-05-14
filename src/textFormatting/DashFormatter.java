@@ -1,4 +1,4 @@
-package TextFormatting;
+package textFormatting;
 
 public class DashFormatter implements Formatter{
     @Override

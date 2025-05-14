@@ -1,4 +1,4 @@
-package TransportationNetwork;
+package transportationNetwork;
 
 public class Bicycle extends TransportVehicle{
     public Bicycle( String name){

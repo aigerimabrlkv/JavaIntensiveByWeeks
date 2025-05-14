@@ -1,6 +1,4 @@
-package TextFormatting;
-
-import java.text.Normalizer;
+package textFormatting;
 
 public class TextProcessor {
     public static String process(String input, Formatter[] formatters){

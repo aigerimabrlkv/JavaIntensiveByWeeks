@@ -1,4 +1,4 @@
-package TransportationNetwork;
+package transportationNetwork;
 
 public abstract class TransportVehicle {
     String name;

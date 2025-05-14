@@ -1,4 +1,4 @@
-package TextFormatting;
+package textFormatting;
 
 public class FormatterFactory {
     public static Formatter getFormatter(String name){

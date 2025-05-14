@@ -1,4 +1,4 @@
-package TextFormatting;
+package textFormatting;
 
 public class LowercaseFormatter implements Formatter{
     @Override

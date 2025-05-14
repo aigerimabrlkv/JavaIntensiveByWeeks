@@ -1,4 +1,4 @@
-package week4.chess;
+package chess;
 
 public class Game {
     private Piece[][] board;

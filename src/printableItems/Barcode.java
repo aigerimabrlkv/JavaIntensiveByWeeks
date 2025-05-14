@@ -1,4 +1,4 @@
-package PrintableItems;
+package printableItems;
 
 public class Barcode implements Printable{
     private String code;

@@ -1,4 +1,4 @@
-package week4.chess;
+package chess;
 
 public abstract class Piece {
     protected int x, y;

@@ -1,4 +1,4 @@
-package TextFormatting;
+package textFormatting;
 
 public class UppercaseFormatter implements Formatter{
     @Override

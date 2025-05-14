@@ -1,4 +1,4 @@
-package PrintableItems;
+package printableItems;
 
 
 public class Document implements Printable{
