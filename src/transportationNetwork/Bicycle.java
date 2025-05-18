@@ -6,6 +6,7 @@ public class Bicycle extends TransportVehicle{
     }
     @Override
     public void move(){
+
         System.out.println(name + " is pedaling....");
 
 
