@@ -6,9 +6,12 @@ package week5.abstract_classes.car;
  * methods from both the abstract class (Car) and the interface (Vehicle).
  */
 class ElectricCar extends Car {
+    protected int batteryCharge;
+
     // The constructor calls the superclass constructor.
     public ElectricCar(String model, int batteryCharge) {
-        super(model, batteryCharge);
+        super(model);
+        this.batteryCharge = batteryCharge;
     }
 
     // Task 4: Implement the abstract method `start()` from the Vehicle interface.
@@ -28,5 +31,11 @@ class ElectricCar extends Car {
     public void refuel() {
         System.out.println(this.model + " is being charged at a station. Current charge: " + this.batteryCharge + "%");
         // We could add logic here to increase the charge.
+    }
+
+    // Task 7: Implement the new abstract method `getVehicleState()`.
+    @Override
+    public String getVehicleState() {
+        return "Battery charge: " + this.batteryCharge + "%";
     }
 }

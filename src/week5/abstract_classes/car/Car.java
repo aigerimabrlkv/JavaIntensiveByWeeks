@@ -9,12 +9,10 @@ package week5.abstract_classes.car;
 abstract class Car implements Vehicle {
     // An abstract class can have member variables.
     protected String model;
-    protected int batteryCharge;
 
     // It can also have a constructor.
-    public Car(String model, int batteryCharge) {
+    public Car(String model) {
         this.model = model;
-        this.batteryCharge = batteryCharge;
     }
 
     // A concrete method that provides a default implementation.
@@ -23,12 +21,10 @@ abstract class Car implements Vehicle {
         System.out.println(this.model + " is driving...");
     }
 
-    // A method to get the current battery charge.
-    public int getBatteryCharge() {
-        return this.batteryCharge;
-    }
-
     // An abstract method that must be implemented by any concrete
     // class that extends this abstract class.
     public abstract void refuel();
+
+    // A new abstract method to get the state of the vehicle (e.g., fuel level or battery charge).
+    public abstract String getVehicleState();
 }
